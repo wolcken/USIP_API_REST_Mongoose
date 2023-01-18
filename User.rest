@@ -1,0 +1,37 @@
+### User GET All
+GET http://127.0.0.1:3000/api/v1/user
+Accept: application/json
+
+### User POST
+POST  http://127.0.0.1:3000/api/v1/user
+Accept: application/json
+Content-Type: application/json
+
+{
+    "login": "Prueba",
+    "password": "98765",
+    "firstName": "Pepe",
+    "lastName": "Lucho"
+}
+
+
+### User GET id
+GET http://127.0.0.1:3000/api/v1/user/63c81655021c7749fe11f7d5
+Accept: application/json
+
+### User PUT id
+PUT  http://127.0.0.1:3000/api/v1/user/63c81655021c7749fe11f7d5
+Accept: application/json
+Content-Type: application/json
+
+{
+    "login": "Test",
+    "password": "98765",
+    "firstName": "Jose",
+    "lastName": "Luis"
+}
+
+### User DELETE id
+DELETE   http://127.0.0.1:3000/api/v1/user/63c81655021c7749fe11f7d5
+Accept: application/json
+

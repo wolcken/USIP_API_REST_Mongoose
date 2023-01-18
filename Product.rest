@@ -1,0 +1,37 @@
+### Product GET All
+GET http://127.0.0.1:3000/api/v1/product
+Accept: application/json
+
+### Product POST
+POST  http://127.0.0.1:3000/api/v1/product
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "headphone",
+    "price": 200,
+    "unit": "unidad",
+    "inventory": 80
+}
+
+
+### Product GET id
+GET http://127.0.0.1:3000/api/v1/product/63c7fd41716122635d092961
+Accept: application/json
+
+### Product PUT id
+PUT  http://127.0.0.1:3000/api/v1/product/63c80d35be8b6037bcd8f29d
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "headphone",
+    "price": 100,
+    "unit": "unidad",
+    "inventory": 50
+}
+
+### Product DELETE id
+DELETE   http://127.0.0.1:3000/api/v1/product/63c80d35be8b6037bcd8f29d
+Accept: application/json
+
