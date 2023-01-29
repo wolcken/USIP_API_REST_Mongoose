@@ -8,30 +8,30 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "login": "Prueba",
-    "password": "98765",
-    "firstName": "Pepe",
-    "lastName": "Lucho"
+    "email": "Alfredo@test.com",
+    "password": "12345",
+    "firstName": "Alfredo",
+    "lastName": "Ramos"
 }
 
 
 ### User GET id
-GET http://127.0.0.1:3000/api/v1/user/63c81655021c7749fe11f7d5
+GET http://127.0.0.1:3000/api/v1/user/63d5c488d155aabf96aac87e
 Accept: application/json
 
 ### User PUT id
-PUT  http://127.0.0.1:3000/api/v1/user/63c81655021c7749fe11f7d5
+PUT  http://127.0.0.1:3000/api/v1/user/63d5c488d155aabf96aac87e
 Accept: application/json
 Content-Type: application/json
 
 {
-    "login": "Test",
+    "email": "Test@test.com",
     "password": "98765",
     "firstName": "Jose",
     "lastName": "Luis"
 }
 
 ### User DELETE id
-DELETE   http://127.0.0.1:3000/api/v1/user/63c81655021c7749fe11f7d5
+DELETE   http://127.0.0.1:3000/api/v1/user/63d5c488d155aabf96aac87e
 Accept: application/json
 

@@ -8,30 +8,30 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "name": "headphone",
-    "price": 200,
+    "name": "mouse",
+    "price": 100,
     "unit": "unidad",
-    "inventory": 80
+    "inventory": 150
 }
 
 
 ### Product GET id
-GET http://127.0.0.1:3000/api/v1/product/63c7fd41716122635d092961
+GET http://127.0.0.1:3000/api/v1/product/63d5c259e14d905713cfc48f
 Accept: application/json
 
 ### Product PUT id
-PUT  http://127.0.0.1:3000/api/v1/product/63c80d35be8b6037bcd8f29d
+PUT  http://127.0.0.1:3000/api/v1/product/63d5c259e14d905713cfc48f
 Accept: application/json
 Content-Type: application/json
 
 {
-    "name": "headphone",
+    "name": "microphone",
     "price": 100,
     "unit": "unidad",
     "inventory": 50
 }
 
 ### Product DELETE id
-DELETE   http://127.0.0.1:3000/api/v1/product/63c80d35be8b6037bcd8f29d
+DELETE   http://127.0.0.1:3000/api/v1/product/63d5c259e14d905713cfc48f
 Accept: application/json
 

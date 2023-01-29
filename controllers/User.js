@@ -7,7 +7,7 @@ const getAllUsers = async (req, res) => {
             status: "ok",
             data: users
         });
-        console.log("List All Users")
+        console.log("List All Users");
     }catch (error) {
         console.log(error.message);
     }
@@ -17,7 +17,7 @@ const addAUser = async (req, res) => {
     try {
         let newUser = new User();
     
-        newUser.login = req.body.login;
+        newUser.email = req.body.email;
         newUser.password = req.body.password;
         newUser.firstName = req.body.firstName;
         newUser.lastName = req.body.lastName;

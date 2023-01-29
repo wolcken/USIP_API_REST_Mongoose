@@ -3,6 +3,7 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 const productRouter = require("./routers/productRouter");
 const userRouter = require("./routers/userRouter");
+const authRouter = require("./routers/authRouter");
 const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
@@ -14,6 +15,7 @@ app.use((req, res, next) => {
 
 app.use("/api/v1/product/", productRouter);
 app.use("/api/v1/user/", userRouter);
+app.use("/api/v1/auth/", authRouter);
 
 app.listen(process.env.PORT, () => {
     console.log(`App running on port ${process.env.PORT}`);
