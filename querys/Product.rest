@@ -1,11 +1,13 @@
 ### Product GET All
 GET http://127.0.0.1:3000/api/v1/product
 Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 ### Product POST
 POST  http://127.0.0.1:3000/api/v1/product
 Accept: application/json
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 {
     "name": "mouse",
@@ -18,11 +20,13 @@ Content-Type: application/json
 ### Product GET id
 GET http://127.0.0.1:3000/api/v1/product/63d5c259e14d905713cfc48f
 Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 ### Product PUT id
 PUT  http://127.0.0.1:3000/api/v1/product/63d5c259e14d905713cfc48f
 Accept: application/json
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 {
     "name": "microphone",
@@ -34,4 +38,5 @@ Content-Type: application/json
 ### Product DELETE id
 DELETE   http://127.0.0.1:3000/api/v1/product/63d5c259e14d905713cfc48f
 Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 

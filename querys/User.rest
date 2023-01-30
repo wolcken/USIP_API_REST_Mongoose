@@ -1,11 +1,13 @@
 ### User GET All
 GET http://127.0.0.1:3000/api/v1/user
 Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 ### User POST
 POST  http://127.0.0.1:3000/api/v1/user
 Accept: application/json
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 {
     "email": "Alfredo@test.com",
@@ -18,11 +20,13 @@ Content-Type: application/json
 ### User GET id
 GET http://127.0.0.1:3000/api/v1/user/63d5c488d155aabf96aac87e
 Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 ### User PUT id
 PUT  http://127.0.0.1:3000/api/v1/user/63d5c488d155aabf96aac87e
 Accept: application/json
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
 
 {
     "email": "Test@test.com",
@@ -34,4 +38,4 @@ Content-Type: application/json
 ### User DELETE id
 DELETE   http://127.0.0.1:3000/api/v1/user/63d5c488d155aabf96aac87e
 Accept: application/json
-
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64

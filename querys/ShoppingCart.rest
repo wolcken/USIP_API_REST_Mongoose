@@ -1,0 +1,30 @@
+### Get Cart
+GET http://127.0.0.1:3000/api/v1/cart/product
+Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
+
+
+### Add to cart
+POST http://127.0.0.1:3000/api/v1/cart/product
+Accept: application/json
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
+
+{
+    "invoice": "abc123",
+    "totalAmount": 1,
+    "user": "alfredo",
+    "productId": "63d5c247e14d905713cfc48c",
+    "quantity": 5,
+    "price": 150
+}
+
+### Delete Item to Cart for productId
+DELETE http://127.0.0.1:3000/api/v1/cart/product/63d7337be084a669f1338821
+Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZDVjZjkyMmQyMDU4ZTAzYTMyNDdiZCIsImVtYWlsIjoiUHJ1ZWJhQHRlc3QuY29tIiwiZmlyc3ROYW1lIjoiVGVzdGVyIiwiaWF0IjoxNjc1MDQ0NDYxLCJleHAiOjE2NzUxMzA4NjF9.Wlbo95bghMbqy45fuKfOIISpx8y0GPTPDT-1EvR4A64
+
+
+### Post Paid Product
+POST http://127.0.0.1:3000/api/v1/cart/pay
+Accept: application/json
